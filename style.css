@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #f4f1e4;
+}
+
+
+
+
+/* ========== navigation bar ============= */
+
+.head {
+    background: rgba(128, 128, 128, 0.301);
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+.homepg h1 {
+    font-size: 80px;
+}
+
+
+.head .right ul {
+    display: flex;
+    gap: 74px;
+    font-weight: bolder;
+    z-index: 1111;
+}
+
+.head .right ul a {
+    color: white !important;
+}
+
+/* ========== homepage section ========= */
+
+.homepg {
+    width: 100%;
+    background-image: url(images/homebg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    position: relative;
+
+}
+
+
+
+/* =========== Our Chef Section ============ */
+
+.chef {
+    background-color: rgb(246, 238, 223);
+    position: relative;
+}
+
+.chef h1 {
+    color: rgb(246, 75, 60);
+    font-weight: bold;
+}
+
+.chef p {
+    color: rgb(246, 75, 60);
+}
+
+.chef .main h3 {
+    color: rgb(246, 75, 60);
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.chef .main p {
+    color: rgb(246, 75, 60);
+}
+
+.chef .vector img {
+    position: absolute;
+}
+
+.chef .vector .im1 {
+    height: 130px;
+    right: 143px;
+    top: 70px;
+}
+
+.chef .vector .im2 {
+    right: 440px;
+    bottom: 40px;
+    height: 60px;
+}
+
+.chef .vector .im3 {
+    left: 440px;
+    bottom: 40px;
+    height: 75px;
+}
+
+.chef .vector .im4 {
+    left: 0px;
+    top: 190px;
+    height: 146px;
+}
+
+.chef .vector .im5 {
+    left: 218px;
+    top: 61px;
+    height: 65px;
+}
+
+.chef .vector .im6 {
+    right: 7px;
+    bottom: 170px;
+    height: 65px;
+}
+
+
+/* ============ burger section ==========  */
+
+.brgr {
+    background-color: rgb(246, 75, 60);
+}
+
+.brgr .btn {
+    background-color: white;
+    color: rgb(246, 75, 60);
+    border-radius: 30px;
+    padding-inline: 50px;
+    font-weight: bold;
+}
+
+/* ======= big burger section ======= */
+
+.b-brger {
+    position: relative;
+}
+
+.b-brger h1 {
+    color: rgb(246, 75, 60);
+    font-weight: bold;
+}
+
+.b-brger p {
+    color: rgb(246, 75, 60);
+}
+
+.b-brger .vector img {
+    position: absolute;
+}
+
+.b-brger .vector .im1 {
+    height: 130px;
+    right: 798px;
+    top: 5px;
+}
+
+.b-brger .vector .im2 {
+    right: 744px;
+    bottom: 56px;
+    height: 60px;
+}
+
+.b-brger .vector .im3 {
+    right: 98px;
+    top: 76px;
+    height: 55px;
+}
+
+.b-brger .vector .im4 {
+    right: 24px;
+    bottom: 8px;
+    height: 117px;
+}
+
+.b-brger .vector .im5 {
+    left: 141px;
+    bottom: 14px;
+    height: 65px;
+}
+
+.b-brger .vector .im6 {
+    left: 0px;
+    top: 99px;
+    height: 70px;
+}
+
+.b-brger .b-btn {
+    width: 200px;
+    color: white;
+    background-color: rgb(246, 75, 60);
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* =========== STATISTICS SECTION ============ */
+
+.stat {
+    background-color: rgb(246, 75, 60);
+}
+
+.stat .outer {
+    border: 3px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.stat .outer .content {
+    margin: auto;
+}
+
+.stat .outer h1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.stat .main .outer .content p {
+    letter-spacing: 2px;
+}
+
+
+/* ========== Popular packages ==========  */
+
+.package {
+    background-color: rgb(246, 238, 223);
+    position: relative;
+}
+
+.package h1 {
+    color: rgb(246, 75, 60);
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+    z-index: 9;
+}
+
+.package .main {
+    background-color: white;
+
+}
+
+.package .main .cont {
+    color: rgb(246, 75, 60);
+}
+
+.package .main .cont button {
+    background-color: rgb(246, 75, 60);
+    color: white;
+    border: none;
+    width: 185px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+.package .vector img {
+    position: absolute;
+
+}
+
+.package .vector .im1 {
+    height: 92px;
+    right: 300px;
+    top: 29px;
+}
+
+.package .vector .im2 {
+    left: 0px;
+    bottom: 56px;
+    height: 60px;
+}
+
+.package .vector .im3 {
+    left: 180px;
+    top: 59px;
+    height: 55px;
+}
+
+.package .vector .im4 {
+    right: 132px;
+    bottom: 29px;
+    height: 117px;
+}
+
+.package .vector .im5 {
+    right: 0px;
+    top: 126px;
+    height: 65px;
+}
+
+.package .vector .im6 {
+    left: 15px;
+    top: 130px;
+    height: 70px;
+}
