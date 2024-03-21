@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero_sec {
+  /* min-height: 100vh; */
+  background-color: #f99501;
+}
+
+.hero_bg {
+  /* min-height: 100vh; */
+  background-image: url(/images/orange-backdrop.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero_sec p {
+  font-size: 46px;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  max-width: 585px;
+  padding-bottom: 20px;
+}
+
+.audio_para {
+  margin-left: 235px;
+  margin-top: -130px;
+}
+
+.audio_para .music_bar {
+  max-width: 400px;
+}
+
+.jhalar {
+  max-width: 250px;
+}
+
+.hero_bg img[alt="deepak"] {
+  max-width: 300px;
+  width: 100%;
+}
+
+/* ========================== WISH SECTION ========================== */
+
+.wish_bg {
+  background-color: #f99501;
+}
+
+.wish_bg .wish_border {
+  display: block;
+  margin-inline: auto;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  max-width: 1000px;
+  width: 100%;
+  padding-inline: 15px;
+}
+
+.lakshmimaa_ganesh_main {
+  padding-inline: 15px;
+}
+
+.lakshmimaa_ganesh {
+  max-width: 1300px;
+  display: block;
+  margin-inline: auto;
+  width: 100%;
+}
+
+.wish_bg h2 {
+  font-family: "Style Script", cursive;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 60px;
+  margin: 10px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 15px;
+}
+
+.card {
+  display: inline-block;
+  background-color: white;
+  max-width: 755px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card p {
+  font-size: 45px;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+}
+
+.card_content {
+  padding: 50px 50px 80px 30px;
+}
+
+.card_content .para1 {
+  max-width: 580px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.card_content .para2 {
+  max-width: 615px;
+  width: 100%;
+}
+
+.little_girl {
+  max-width: 280px;
+  width: 100%;
+  margin-left: -5rem;
+}
+
+/* ======================= MEDIA QUERY ====================== */
+
+@media (max-width: 840px) {
+  .second_deepak {
+    display: none;
+  }
+
+  .deepak_first {
+    display: block;
+    margin-left: auto;
+  }
+
+  .audio_para {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+
+  .audio_para .music_bar {
+    max-width: 250px;
+  }
+
+  .hero_sec p {
+    font-size: 32px;
+    max-width: 270px;
+  }
+
+  .wish_bg h2 {
+    font-size: 50px;
+  }
+
+  .card p {
+    font-size: 30px;
+  }
+
+  .little_girl {
+    max-width: 180px;
+    width: 100%;
+    margin-left: -5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero_sec p {
+    font-size: 24px;
+    max-width: 270px;
+  }
+
+  .hero_bg img[alt="deepak"] {
+    max-width: 200px;
+    width: 100%;
+  }
+  .wish_bg h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 390px) {
+  .card p {
+    font-size: 15px;
+  }
+
+  .wish_bg h2 {
+    padding-top: 30px;
+  }
+
+  .little_girl {
+    margin-left: -4rem;
+    max-width: 150px;
+  }
+
+  .card_content {
+    padding: 40px 50px 40px 30px;
+  }
+}
