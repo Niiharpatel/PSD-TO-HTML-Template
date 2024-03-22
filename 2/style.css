@@ -45,6 +45,10 @@
 
 /* ========================== WISH SECTION ========================== */
 
+/* .wish_sec {
+  background-color: #f99501;
+} */
+
 .wish_bg {
   background-color: #f99501;
 }
@@ -120,6 +124,52 @@
   margin-left: -5rem;
 }
 
+.laxmi_ganesh_sec {
+  padding-inline: 15px;
+}
+
+.laxmi_ganesha_card {
+  background-color: white;
+  border-radius: 24px;
+  padding: 4rem;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  margin-inline: auto;
+}
+
+.laxmi_ganesha_card img {
+  width: 50%;
+}
+
+.thankyou_text {
+  padding-left: 7rem;
+  max-width: 900px;
+  width: 100%;
+}
+
+.thankyou_text p {
+  font-family: "Salsa", cursive;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.thankyou_text h2 {
+  font-family: "Style Script", cursive;
+  font-size: 70px;
+  font-weight: 400;
+  padding-top: 20px;
+  max-width: 640px;
+}
+
+.author {
+  max-width: 1400px;
+  text-align: end;
+  font-family: "Salsa", cursive;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+
 /* ======================= MEDIA QUERY ====================== */
 
 @media (max-width: 840px) {
@@ -159,6 +209,19 @@
     width: 100%;
     margin-left: -5rem;
   }
+
+  .thankyou_text {
+    padding-left: 2rem;
+  }
+
+  .thankyou_text h2 {
+    font-size: 50px;
+    text-align: start;
+  }
+
+  .laxmi_ganesha_card {
+    padding: 3rem;
+  }
 }
 
 @media (max-width: 540px) {
@@ -173,6 +236,19 @@
   }
   .wish_bg h2 {
     font-size: 25px;
+  }
+  .laxmi_ganesha_card {
+    padding: 2rem;
+  }
+
+  .thankyou_text h2 {
+    padding-top: 7px;
+  }
+
+  .thankyou_text p {
+    font-family: "Salsa", cursive;
+    font-size: 21px;
+    padding-top: 20px;
   }
 }
 
@@ -192,5 +268,17 @@
 
   .card_content {
     padding: 40px 50px 40px 30px;
+  }
+  .laxmi_ganesha_card {
+    padding: 1.5rem;
+  }
+
+  .thankyou_text h2 {
+    padding-top: 2px;
+  }
+
+  .author {
+    font-size: 15px;
+    padding-top: 20px;
   }
 }
